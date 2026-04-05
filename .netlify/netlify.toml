@@ -1,0 +1,28 @@
+plugins = []
+headers = []
+redirects = []
+
+[functions]
+
+[functions."*"]
+
+[build]
+publish = "C:\\Users\\user\\OneDrive\\Projectsall\\Bio-tech-protfolio\\bio_techie\\dist"
+publishOrigin = "ui"
+commandOrigin = "ui"
+base = "C:\\Users\\user\\OneDrive\\Projectsall\\Bio-tech-protfolio\\bio_techie"
+command = "npm run build"
+
+[build.environment]
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]
