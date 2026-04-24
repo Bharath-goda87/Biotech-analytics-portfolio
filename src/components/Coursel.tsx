@@ -8,7 +8,6 @@ import bio16 from "../assets/bio16.png";
 
 const Carousel: React.FC = () => {
   const [current, setCurrent] = useState(0);
-
   const images = [bio11, bio12, bio13, bio16, bio14, bio15,];
   const length = images.length;
 
@@ -275,8 +274,6 @@ const Carousel: React.FC = () => {
             industry-scale applications.
           </p>
         </div>
-
-
       </div>
     </div>
 

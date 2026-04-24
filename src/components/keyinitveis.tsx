@@ -4,6 +4,7 @@ import bio8 from "../assets/bio8.png";
 import bio9 from "../assets/bio9.png";
 import bio10 from "../assets/bio10.png";
 import bio19 from "../assets/bio19.png";
+import bio20 from "../assets/bio20.png";
 
 interface Initiative {
   image: string;
@@ -13,6 +14,16 @@ interface Initiative {
 }
 
 const initiatives: Initiative[] = [
+  {
+    title: "India Pharma Expo 2026 & NextGen Innovation Expo",
+    image: bio20,
+    description: `I attended India Pharma Expo 2026 and the NextGen Innovation Expo, where I explored emerging trends in pharmaceuticals, biotechnology, and AI-driven healthcare innovation. The expo provided exposure to how drugs move through stages of discovery, development, formulation, manufacturing, and quality processes. I observed how artificial intelligence is being integrated into biopharma for drug discovery, predictive analytics, automation, data-driven decision making, and personalized medicine applications.
+
+    Through industry exhibits, technical discussions, and innovation showcases, I gained practical understanding of pharmaceutical technologies, digital transformation in life sciences, and how computational tools are supporting modern bio-pharma workflows. This experience helped me connect my interests in biotechnology, Python, data analysis, and bioinformatics with real-world industry applications.
+
+   Key takeaways included learning about AI integration in drug development, innovation in formulation and therapeutics, emerging opportunities in bioinformatics and digital health, and the importance of interdisciplinary skills in the future of life sciences. This expo broadened my industry awareness and strengthened my motivation to pursue roles in bioinformatics, biotechnology, computational biology, and data-driven healthcare`,
+    icon: "🧪",
+  },
   {
     title: "Bioinformatics workshop",
     image: bio7,
@@ -90,10 +101,10 @@ Developed confidence to ask meaningful, career-oriented questions
 Benefited from interactions with mentors and professionals`,
     icon: "💬",
   },
-{
-  title: " 💊 Pharmacovigilance Learning Context (Biotecnika Webinar)",
-  image:bio19,
-  description: `This session highlighted how pharmacovigilance plays a key role in ensuring patient safety, regulatory compliance, and post-marketing drug monitoring across global markets.
+  {
+    title: " 💊 Pharmacovigilance Learning Context (Biotecnika Webinar)",
+    image: bio19,
+    description: `This session highlighted how pharmacovigilance plays a key role in ensuring patient safety, regulatory compliance, and post-marketing drug monitoring across global markets.
 
 Key learnings applied in this project include:
 - Understanding the role of pharmacovigilance in pharma & biotech industries
@@ -104,7 +115,7 @@ Key learnings applied in this project include:
 - Signal detection and risk-benefit evaluation concepts
 
 This project reflects practical understanding of pharmacovigilance operations and demonstrates how theoretical knowledge can be applied to real-world case processing scenarios.`,
-},
+  },
 ];
 
 const InitiativesSection: React.FC = () => {
@@ -132,7 +143,7 @@ const InitiativesSection: React.FC = () => {
             <img
               src={initiative.image}
               alt={initiative.title}
-              className="h-82 w-198  "
+              className="h-82 w-198 object-cover "
             />
 
             {/* Content */}
