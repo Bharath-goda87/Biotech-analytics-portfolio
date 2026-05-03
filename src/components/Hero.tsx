@@ -59,7 +59,6 @@ function Hero() {
       hover:bg-pink-600 hover:scale-105 hover:shadow-2xl hover:shadow-pink-400/70
     "
           >
-
             <span className="text-black hover:text-white">Get in touch</span>
           </a>
 

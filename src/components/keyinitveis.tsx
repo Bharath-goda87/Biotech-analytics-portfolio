@@ -5,6 +5,8 @@ import bio9 from "../assets/bio9.png";
 import bio10 from "../assets/bio10.png";
 import bio19 from "../assets/bio19.png";
 import bio20 from "../assets/bio20.png";
+import bio21 from "../assets/bio21.png";
+
 
 interface Initiative {
   image: string;
@@ -23,12 +25,20 @@ const initiatives: Initiative[] = [
 
    Key takeaways included learning about AI integration in drug development, innovation in formulation and therapeutics, emerging opportunities in bioinformatics and digital health, and the importance of interdisciplinary skills in the future of life sciences. This expo broadened my industry awareness and strengthened my motivation to pursue roles in bioinformatics, biotechnology, computational biology, and data-driven healthcare`,
     icon: "🧪",
+
   },
   {
-    title: "Bioinformatics workshop",
-    image: bio7,
-    description: `I attended a Bioinformatics workshop focused on applying computational and statistical approaches to real-world biological data analysis. The session covered core concepts such as gene expression analysis, data preprocessing, variability assessment, and study design, with hands-on practice using RStudio and Python. I gained practical exposure to publication-oriented statistical workflows, data visualization, and reproducible research practices, highlighting how robust analytical design supports high-impact biomedical and biotechnology research. This experience strengthened my ability to combine life science knowledge with computational tools, preparing me for roles in bioinformatics, biotechnology, pharmacovigilance, and data-driven life sciences.`,
-    icon: "🏆",
+    title: "🩺 Medical Health Camp Volunteering",
+    image: bio21,
+    description: `I volunteered at a medical health camp organized as part of a Swachh Bharat initiative. During this activity, I supported basic coordination tasks and assisted participants throughout the event.
+
+Key responsibilities included:
+- Assisting with participant registration and flow management
+- Helping guide attendees to different medical check-up areas
+- Supporting basic help desk activities and addressing general queries
+- Assisting the organizing team in managing event operations
+
+Through this experience, I gained exposure to community healthcare activities and improved my communication, teamwork, and organizational skills in a real-world setting.`,
   },
   {
     title: "Volunteering & Campus Activities",
@@ -46,6 +56,12 @@ Assisted in conducting engagement activities, including quizzes and participant 
 Worked with the event team, gaining experience in team coordination, communication, and responsibility.`
     ,
     icon: "🤝",
+  },
+  {
+    title: "Bioinformatics workshop",
+    image: bio7,
+    description: `I attended a Bioinformatics workshop focused on applying computational and statistical approaches to real-world biological data analysis. The session covered core concepts such as gene expression analysis, data preprocessing, variability assessment, and study design, with hands-on practice using RStudio and Python. I gained practical exposure to publication-oriented statistical workflows, data visualization, and reproducible research practices, highlighting how robust analytical design supports high-impact biomedical and biotechnology research. This experience strengthened my ability to combine life science knowledge with computational tools, preparing me for roles in bioinformatics, biotechnology, pharmacovigilance, and data-driven life sciences.`,
+    icon: "🏆",
   },
   {
     title: "Mock Interview Experience",
