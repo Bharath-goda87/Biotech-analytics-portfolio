@@ -25,7 +25,7 @@ function Hero() {
         </div>
 
         <h1 className="text-2xl md:text-4xl lg:text-5xl font-extrabold text-blue-600  bio1 animate__animated animate__bounceInLeft animate__slow ">
-          Bioinfromatican Gene analysis <span>pharmacovigilance </span><span>SAS Developer</span>
+        <span>pharmacovigilance </span>  Bioinfromatican
         </h1>
 
         <p className="text-white max-w-full md:max-w-lg lg:max-w-xl">
